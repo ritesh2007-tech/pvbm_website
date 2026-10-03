@@ -263,7 +263,7 @@ export default function AboutUs() {
                 className="w-full max-w-[220px] sm:max-w-[260px] text-center"
               >
                 {/* Photo */}
-                <div className="mx-auto mb-4 h-36 w-36 sm:h-68 sm:w-68 overflow-hidden rounded-xl">
+                <div className="mx-auto mb-4 h-36 w-36 sm:h-68 sm:w-68 overflow-hidden rounded-full">
                   <img
                     src={member.image}
                     alt={member.name}
